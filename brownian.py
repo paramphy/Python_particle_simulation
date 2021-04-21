@@ -8,6 +8,8 @@ def brownian_displacement_display ( k, n, m, d, t, dsq ):
 #
 #  Discussion:
 #
+#    Thanks to Feifei Xu for pointing out a missing factor of 2 in the
+#    displacement calculation.
 #
 #  Licensing:
 #
