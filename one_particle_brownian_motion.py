@@ -1,5 +1,4 @@
 from vpython import *
-import random
 import numpy as np
 
 ball_radius = 0.2
@@ -32,11 +31,10 @@ time = 0.0
 delta = 1
 scene.autoscale=False
 
-
-
 ball.p = vector(.1,.1,.1)
 
 wt = wtext(text="\n\n")
+
 def setspeed(s):
     wt.text = '{:1.2f}'.format(s.value)
     
@@ -54,8 +52,6 @@ sl1 = slider(min=1.0, max=10, value = 10, length=220, bind=mass, right = 15)
 wt = wtext(text='\n{:1.2f}'.format(sl1.value))
 
 scene.append_to_caption(' Mass\n')
-
-#side = side - thk*0.5 - ball.radius
 
 while True:
     rate(100)

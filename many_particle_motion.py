@@ -1,13 +1,12 @@
 from vpython import *
-#GlowScript 3.1 VPython
 
 # Hard-sphere gas.
 
 # Bruce Sherwood
 
-win = 1000
+win = 500
 
-Natoms = 200  # change this to have more or fewer atoms
+Natoms = 100  # change this to have more or fewer atoms
 
 # Typical values
 L = 1 # container is a cube L on a side
